@@ -1,0 +1,115 @@
+p, h1{
+	text-align: center;
+}
+
+body.header{
+	background-image:url('../Images/banner.jfif');
+	background-repeat: repeat;
+}
+body.navigator{
+	background-color: #1450A3;
+}
+body.left{
+	background-color: #337CCF;
+}
+body.right{
+	background-color: #337CCF;
+}
+body.home{
+	background-color: #279EFF;
+}
+body.study{
+	background-color: #279EFF;
+}
+body.gallery{
+	background-color: #279EFF;
+}
+body.footer{
+	background-color: #FFC436;
+	font-size: small;
+}
+
+legend, fieldset{
+	border:10px outset #FFC436;
+	border-radius:30px;
+	color:#7091F5;
+	padding:5px;
+	background-image: linear-gradient(to right, #191D88, #1450A3, #191D88);
+}
+
+.tabel{
+	border-collapse: collapse;
+	width: 85%;
+}
+th,td{
+	border: 1px solid black;
+	padding: 8px;
+	border-width: 2px;
+}
+.tr{
+	background-color: #1450A3;
+}
+
+.about{
+    list-style-type: disc;
+}
+ol.hobi{
+	list-style-type: lower-alpha;
+}
+ol.genshin{
+	list-style-image:url('../Images/GenshinImpact.jpg');	
+}
+ol.HSR{
+	list-style-image:url('../Images/Honkai-Star-Rail.jpg');	
+}
+ol.WA{
+	list-style-image:url('../Images/whatsapp-logo.png');	
+}
+ol.gmail{
+	list-style-image:url('../Images/gmail-logo.png');	
+}
+ol.sosmed{
+	list-style-image:url('../Images/Profile.png');	
+}
+ol.belajar{
+	list-style-image:url('../Images/notes.png');	
+}
+
+div#menu{
+	text-align:center;
+}
+/*---------------pseudo class-----------------*/
+a.link_nav:link, a.link_nav:visited{
+	font-weight:bold;
+	text-decoration:none;
+	color:#7091F5;
+	border:2px solid #FFC436;
+    border-radius: 20px;
+	background-color:lightskyblue;
+	padding:5px;
+}
+a.link_nav:hover{
+	font-weight:bold;
+	text-decoration:none;
+	color:lightskyblue;
+	border:2px #FFC436;
+	background-color:darkblue;
+	border-style: dotted;
+}
+a.link_sidebar:link, a.link_sidebar:visited{
+	text-decoration:none;
+	color:#7091F5;
+}
+a.link_sidebar:hover{
+	text-decoration:none;
+	color:lightskyblue;
+}
+
+@font-face {
+    font-family: myMadeSunflower;
+    src: url('MadeSunflower.otf');
+}
+  
+*{ 
+    font-family: MyMadeSunflower;
+}
